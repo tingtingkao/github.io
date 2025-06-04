@@ -21,6 +21,14 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+     <!-- GSAP 核心 -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+     <!-- Plugins -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async=""></script>
 	<!-- IE Fix for HTML5 Tags -->
 	<!--[if lt IE 9]>
@@ -120,10 +128,10 @@
                     <div class="col-10 col-md-8">
                         <div class="item item_content">
                             <h2 class="title">
-                                <span>A product designer</span>
+                                <span id="typewriter01"></span>
                             </h2>
                             <p>
-                                I was born in Macau and grew up in Taiwan. I believe "Human-Centered Design" can improve human well-being, user satisfaction, accessibility, and sustainability. To maintain a sustainable business model, human-centered design is essential. As a college student majoring in visual communication design, my graduation project "The Multimedia interactive interface of pregnancy" won the <a class="btn btn_link" href="http://www.idcn.jp/compe/en/prize/index.html" target="_blank" rel="noopener" >NAGOYA DESIGN DO AWARD!</a> 
+                                with 11 years of cross-industry experience—from e-commerce and travel to AI-driven healthcare and enterprise software. I specialize in ToB products that solve real user problems through workflow understanding and cross-industry insights.
                             </p>
                         </div>
                     </div>
@@ -135,10 +143,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-10">
-                    <h2 class="item item_title" data-aos="fade-up">
+                    <h2 class="item item_title">
                         <p class="main_title">
                             <img class="icon" src="images/icon_h2-uiux.svg" alt="">
-                            <span>UI/UX Case Study</span>
+                            <span id="typewriter02"></span>
                         </p>
                     </h2>
                     <div class="item item_info">
@@ -146,7 +154,7 @@
                             ‌I started my career as a UI designer for a small digital marketing agency. After that, I became a Mid-level UI designer for <a class="btn btn_link" href="https://www.eslitecorp.com/eslite/index.jsp?site_id=eslite_en" target="_blank" rel="noopener" >Eslite online</a> (Taiwan's largest retail bookstore chain). Most recently, as a product designer, my job has been to create flowcharts, wireframes, and interactive prototypes for products. I have to identify the user's goals, build a strong and consistent brand image, and communicate with the user.
                         </p>
                     </div>
-                    <div class="item item_slide" data-aos="fade-up">
+                    <div class="item item_slide">
                         <a href="uiux-Dispatching.html" class="btn slide_item">
                             <div class="slide_pic">
                                 <img class="lazyload" src="images/img_uiux-Dispatching.jpg" alt="">
@@ -163,14 +171,6 @@
                                 <span>AI Medical Referral Software</span>
                             </h3>
                         </a>
-                        <a href="uiux-Anota.html" class="btn slide_item">
-                            <div class="slide_pic">
-                                <img class="lazyload" src="images/img_uiux-Anota.jpg" alt="">
-                            </div>                   
-                            <h3 class="title">
-                                <span>Healthcare Text Annotation Software</span>
-                            </h3>
-                        </a>
                         <a href="uiux-Portfolio.html" class="btn slide_item">
                             <div class="slide_pic">
                                 <img class="lazyload" src="images/img_uiux-Portfolio.jpg" alt="">
@@ -179,12 +179,20 @@
                                 <span>Ting-Ting's (the autor) Online Portfolio</span>
                             </h3>
                         </a>
+                        <a href="uiux-Anota.html" class="btn slide_item">
+                            <div class="slide_pic">
+                                <img class="lazyload" src="images/img_uiux-Anota.jpg" alt="">
+                            </div>                   
+                            <h3 class="title">
+                                <span>Healthcare Text Annotation Software</span>
+                            </h3>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="dec_bg">
-            <div class="dec_island island_hongkong" data-aos="fade-up">
+            <div class="dec_island island_hongkong">
                 <div class="btn_island">
                     <a class="btn btn_map" href="javascript:void(0);">
                         <div class="icon">
@@ -198,7 +206,7 @@
                     <img src="images/dec_island_hongkong.png" alt="">
                 </div>
             </div>
-            <div class="dec_island island_japan" data-aos="fade-up">
+            <div class="dec_island island_japan">
                 <div class="btn_island">
                     <a class="btn btn_map" href="javascript:void(0);">
                         <div class="icon">
@@ -218,13 +226,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-10">
-                    <h2 class="item item_title" data-aos="fade-up">
+                    <h2 class="item item_title">
                         <p class="main_title">
                             <img class="icon" src="images/icon_h2-maketing.svg" alt="">
-                            <span>Marketing Case Study</span>
+                            <span id="typewriter03"></span>
                         </p>
                     </h2>
-                    <div class="item item_info" data-aos="fade-up">
+                    <div class="item item_info">
                         <p>
                             I have been working in the Taiwanese e-commerce field for many years. I want to show more personal thinking and creative ideas in my work. Eager to gain scientific evidence in problem-solving, I decided to study <a class="btn btn_link" href="https://www.nhlstenden.com/de/studiengaenge/content-and-media-strategy-ma?gclid=CjwKCAjwjZmTBhB4EiwAynRmD56-E_u0ZzvJp8zUrg_6uDz66lkPtMafYfbwRDm2pb1kObL-RgOvzxoCNLcQAvD_BwE" target="_blank" rel="noopener" >Content and Media Strategy in the Netherlands.</a> I started to realize that design is more than decoration. The design should incorporate behavioral science through questionnaires, interviews, and comparisons between references. Understanding users is the key to addressing user needs.
                         </p>
@@ -232,46 +240,46 @@
                 </div>
             </div>
             <div class="row row_case">
-                <!--<div class="col-10 col-md-5" data-aos="fade-up">
+                <!--<div class="col-10 col-md-5">
                     <a href="#" class="item item_case btn" >
                         <div class="pic">
                             <img class="lazyload" src="images/img_marketing-Croatia.jpg" alt="">
                         </div>
                         <h3 class="title">Content and media strategy of The Croatian National Tourist Board</h3>
-                        <p data-aos="fade-up">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis massa ultricies ullamcorper id nullam vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis massa ultricies ullamcorper id nullam vitae.
                         </p>
                     </a>
                 </div>
-                <div class="col-10 col-md-5" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-10 col-md-5">
                     <a href="#" class="item item_case btn">
                         <div class="pic">
                             <img class="lazyload" src="images/img_marketing-AIPoweredReferral.jpg" alt="">
                         </div>
                         <h3 class="title">Content and media strategy of The Croatian National Tourist Board</h3>
-                        <p data-aos="fade-up" data-aos-delay="50">
+                        <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis massa ultricies ullamcorper id nullam vitae.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis massa ultricies ullamcorper id nullam vitae.
                         </p>
                     </a>
                 </div>-->
-                <div class="col-10 col-md-5" data-aos="fade-up">
+                <div class="col-10 col-md-5">
                     <a href="marketing-E-NewsletterofEslite.html" class="item item_case btn" >
                         <div class="pic">
                             <img class="lazyload" src="images/img_marketing-E-NewsletterofEslite.jpg" alt="">
                         </div>
                         <h3 class="title">An Email Newspaper for Eslite Online</h3>
-                        <p data-aos="fade-up">
+                        <p>
                             To encourage users to buy more art books, a graphical user interface for electronic newspapers was created. The redesign goals are redesigning the E-newspaper to share a strong visual identity with users and increasing product click-through rate.
                         </p>
                     </a>
                 </div>
-                <div class="col-10 col-md-5" data-aos="fade-up" data-aos-delay="50">
+                <div class="col-10 col-md-5">
                     <a href="marketing-LandingPageofEslite.html" class="item item_case btn" >
                         <div class="pic">
                             <img class="lazyload" src="images/img_marketing-LandingPageofEslite.jpg" alt="">
                         </div>
                         <h3 class="title">A Music Landing Page for Eslite Online</h3>
-                        <p data-aos="fade-up" data-aos-delay="50">
+                        <p>
                             To increase CD sales of Taiwanese indie music, we conducted an analysis to reveal why Taiwanese music is mainstream in Taiwan today. The reasons are album cover design and emphasizing “Taiwanese-ness”.
                         </p>
                     </a>
@@ -279,7 +287,7 @@
             </div>
         </div>
         <div class="dec_bg">
-            <div class="dec_island island_netherlands" data-aos="fade-up">
+            <div class="dec_island island_netherlands">
                 <div class="btn_island">
                     <a class="btn btn_map" href="javascript:void(0);">
                         <div class="icon">
@@ -293,7 +301,7 @@
                     <img class="lazyload" src="images/dec_island_netherlands.png" alt="">
                 </div>
             </div>
-            <div class="dec_island island_taiwan" data-aos="fade-up">
+            <div class="dec_island island_taiwan">
                 <div class="btn_island">
                     <a class="btn btn_map" href="javascript:void(0);">
                         <div class="icon">
@@ -313,9 +321,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-10">
-                    <div class="item item_media" data-aos="fade-up">
+                    <div class="item item_media">
                         <p>
-                            I have created many package designs and advertisements. See <a class="btn btn_link" href="https://www.behance.net/tingting1117" target="_blank" rel="noopener" >Behance</a>.
+                            See more package and ad design works on <a class="btn btn_link" href="https://www.behance.net/tingting1117" target="_blank" rel="noopener" >Behance</a>.
                         </p>
                         <a class="btn btn_media" href="https://www.behance.net/tingting1117" target="_blank" rel="noopener">
                             <span>Click here to</span>
@@ -324,9 +332,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item item_media" data-aos="fade-up">
+                    <div class="item item_media">
                         <p>
-                            “Failure is the first step towards success.” Some items are not released on the market. I take it as a reminder that communication with other members is critical. See <a class="btn btn_link" href="https://medium.com/@tingtingkao" target="_blank" rel="noopener" >Medium</a>. 
+                            Reflections on team collaboration and failures shared in <a class="btn btn_link" href="https://medium.com/@tingtingkao" target="_blank" rel="noopener" >Medium</a>. 
                         </p>
                         <a class="btn btn_media" href="https://medium.com/@tingtingkao" target="_blank" rel="noopener">
                             <span>Click here to</span>
@@ -335,9 +343,9 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item item_media" data-aos="fade-up">
+                    <div class="item item_media">
                         <p>
-                            In my daily life, I enjoy doing work out, outdoor cycling and cooking. Recently, I am keen on making exotic vegetarian meals to gain more energy! See more on <a class="btn btn_link" href="https://www.linkedin.com/in/ting-ting-kao-058339161/" target="_blank" rel="noopener" >Linkedin</a> or <a class="btn btn_link" href="mailto:tingting19871117@gmail.com" target="_blank" rel="noopener" >email me</a>.
+                            Feel free to explore more on <a class="btn btn_link" href="https://www.linkedin.com/in/ting-ting-kao-058339161/" target="_blank" rel="noopener" >Linkedin</a> or reach out to me via <a class="btn btn_link" href="mailto:tingting19871117@gmail.com" target="_blank" rel="noopener" >email</a>.
                         </p>
                         <div class="btns">
                             <a class="btn btn_media" href="https://www.linkedin.com/in/ting-ting-kao-058339161/" target="_blank" rel="noopener">
@@ -361,6 +369,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="js/animations.js"></script>
+
 <script> 
    $(window).on("scroll", function () {
          AOS.init();
